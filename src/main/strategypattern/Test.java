@@ -1,10 +1,12 @@
-import behavior.impl.FlyWithWings;
-import behavior.impl.NoFlyBehavior;
-import behavior.impl.Quack;
-import behavior.impl.Squeak;
-import entity.DecoyDuck;
-import entity.Duck;
-import entity.MallardDuck;
+package main.strategypattern;
+
+import main.strategypattern.behavior.impl.FlyWithWings;
+import main.strategypattern.behavior.impl.NoFlyBehavior;
+import main.strategypattern.behavior.impl.Quack;
+import main.strategypattern.behavior.impl.Squeak;
+import main.strategypattern.entity.DecoyDuck;
+import main.strategypattern.entity.Duck;
+import main.strategypattern.entity.MallardDuck;
 
 /*Strategy Pattern - abstracting out set of algorithms, so they can vary independently*/
 //Another way of re-using code, than inheritance

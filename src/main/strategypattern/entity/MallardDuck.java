@@ -1,6 +1,4 @@
-package entity;
-
-import entity.Duck;
+package main.strategypattern.entity;
 
 public class MallardDuck extends Duck {
     @Override

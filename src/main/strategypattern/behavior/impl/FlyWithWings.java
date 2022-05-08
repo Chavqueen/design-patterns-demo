@@ -1,6 +1,6 @@
-package behavior.impl;
+package main.strategypattern.behavior.impl;
 
-import behavior.FlyBehavior;
+import main.strategypattern.behavior.FlyBehavior;
 
 public class FlyWithWings implements FlyBehavior {
     @Override
